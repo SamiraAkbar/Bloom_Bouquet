@@ -1,0 +1,6 @@
+{
+  "name": "Bloom & Bouquet",
+  "description": "A full-stack eCommerce website for a flora shop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

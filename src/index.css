@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Poppins", sans-serif;
+
+  --color-brand-50: #fdf5f6;
+  --color-brand-100: #fbe6e8;
+  --color-brand-200: #f7ccd1;
+  --color-brand-300: #efa3ad;
+  --color-brand-400: #e37485;
+  --color-brand-500: #d64a60;
+  --color-brand-600: #421c22;
+  --color-brand-700: #2d1014;
+  --color-brand-800: #1b0709;
+  --color-brand-900: #0a0102;
+
+  --color-gray-50: #faf6f6;
+  --color-gray-100: #f5ebeb;
+  --color-gray-200: #eadede;
+  --color-gray-300: #d4bebe;
+  --color-gray-400: #a3898c;
+  --color-gray-500: #856e71;
+  --color-gray-600: #635052;
+  --color-gray-700: #4a3a3b;
+  --color-gray-800: #302425;
+  --color-gray-900: #1d1415;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-50);
+  color: var(--color-brand-800);
+}
+
+/* Remove default focus highlight and tap overlay lines across browsers and devices */
+a, button, select, input, textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus, button:focus, select:focus, input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:active, button:active {
+  outline: none !important;
+}
